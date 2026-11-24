@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <section class="first-screen">
+        <div class="wrap">
+            <header>
+                <div class="logo"></div>
+                <nav class="mobile-menu">
+                    <div class="burger-icons">
+                        <i id="open" class="fa-solid fa-bars"></i>
+                        <i id="close" class="fa-solid fa-x hide"></i>
+                    </div>
+                    <ul class="mobile-menu-list ">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Popular</a>
+                        </li>
+                        <li>
+                            <a href="#">Featured</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="desktop-menu">
+                    <ul class="desktop-menu-list">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Popular</a>
+                        </li>
+                        <li>
+                            <a href="#">Featured</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <h1>Choose The Best Car</h1>
+            <div class="PorscheMission">Porsche Mission E</div>
+            <div class="elecarImg"></div>
+            <div class="mainCarImg"></div>
+            <div class="InfoAboutMainCarCont">
+                <div class="mainbox">
+                    <div class="mainboximg imgtemp"></div>
+                    <div class="mainboxindicator">24°</div>
+                    <div class="mainboxunits">TEMPERATURE</div>
+                </div>
+                <div class="mainbox">
+                    <div class="mainboximg imgmile"></div>
+                    <div class="mainboxindicator">873</div>
+                    <div class="mainboxunits">MILEAGE</div>
+                </div>
+                <div class="mainbox">
+                    <div class="mainboximg imgbattery"></div>
+                    <div class="mainboxindicator">94%</div>
+                    <div class="mainboxunits">BATTERY</div>
+                </div>
+            </div>
+            <div class="buttonStart"></div>
+            <div class="blueCloud c1"></div>
+            <div class="blueCloud c2"></div>
+        </div>
+    </section>
+    <section class="second-screen">
+        <div class="wrap">
+            <div class="secondCont">
+                <div class="aboutImg">
+                    <img src="./img/about 1 (1).png" alt="car interior">
+                    <div class="aboutImgContainer">
+                        <div class="aboutimgtext t1">2.500+</div>
+                        <div class="aboutimgtext t2">Supercharges placed along <br> popular routes</div>
+                    </div>
+                </div>
+                <div class="aboutContent">
+                    <div class="title">Machines With <br> Future Technology</div>
+                    <div class="description">See the future with high-performance electric cars produced by renowned
+                        brands. They feature futuristic builds and designs with new and innovative platforms that last a
+                        long time.</div>
+                    <button class="btn secondScreenBtn">Know more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="moreFeatures">
+        <div class="wrap">
+            <div class="title titleCenter">More Features</div>
+            <div class="moreFeaturesCarImg">
+                <div class="moreFeaturesInfoBoxs position-top">
+                    <div class="titleInfoBox">800v</div>
+                    <div class="unitsInfoBox">Turbo <br>Chargin</div>
+                    <div class="moreFeaturesInfoBoxs position-middle">
+                        <div class="titleInfoBox">350</div>
+                        <div class="unitsInfoBox">Km <br> Range</div>
+                        <div class="moreFeaturesInfoBoxs position-bottom">
+                            <div class="titleInfoBox">480</div>
+                            <div class="unitsInfoBox">Km <br>Travel</div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <section class="buyCar">
+        <div class="wrap">
+            <div class="title titleCenter">Featured Luxury Cars</div>
+            <div class="buyCarButtons">
+
+                <button class="buyCarBtn" id="buyCarAll">All</button>
+
+                <button class="buyCarBtn" id="buyCarTesla">
+                    <div class="buyCarTeslaImg"></div>
+                </button>
+
+                <button class="buyCarBtn" id="buyCarAudi">
+                    <div class="buyCarAudiImg"></div>
+                </button>
+
+                <button class="buyCarBtn" id="buyCarPorsche">
+                    <div class="buyCarPorscheImg"></div>
+                </button>
+
+            </div>
+            <div class="buyCarFlexCont">
+
+                <div class="buyCarBox" data-brand="tesla">
+                    <div class="title">Tesla</div>
+                    <div class="description">Model X</div>
+                    <div class="buyCarBoxImg ModelX"></div>
+                    <div class="buyCarBoxPrice">$98,900</div>
+                    <div class="buyCarBoxCheckout"></div>
+                    <div class="blueCloud buyCarBoxCloud"></div>
+                </div>
+                <div class="buyCarBox" data-brand="tesla">
+                    <div class="title">Tesla</div>
+                    <div class="description">Model 3</div>
+                    <div class="buyCarBoxImg Model3"></div>
+                    <div class="buyCarBoxPrice">$45,900</div>
+                    <div class="buyCarBoxCheckout"></div>
+                    <div class="blueCloud buyCarBoxCloud"></div>
+                </div>
+                <div class="buyCarBox" data-brand="audi">
+                    <div class="title">Audi</div>
+                    <div class="description">E-tron</div>
+                    <div class="buyCarBoxImg E-tron"></div>
+                    <div class="buyCarBoxPrice">$175,900</div>
+                    <div class="buyCarBoxCheckout"></div>
+                    <div class="blueCloud buyCarBoxCloud"></div>
+                </div>
+                <div class="buyCarBox" data-brand="porsche">
+                    <div class="title">Porsche</div>
+                    <div class="description">Boxster 987</div>
+                    <div class="buyCarBoxImg box987"></div>
+                    <div class="buyCarBoxPrice">$126,900</div>
+                    <div class="buyCarBoxCheckout"></div>
+                    <div class="blueCloud buyCarBoxCloud"></div>
+                </div>
+                <div class="buyCarBox" data-brand="porsche">
+                    <div class="title">Porsche</div>
+                    <div class="description">Panamera</div>
+                    <div class="buyCarBoxImg Panamera"></div>
+                    <div class="buyCarBoxPrice">$126,900</div>
+                    <div class="buyCarBoxCheckout"></div>
+                    <div class="blueCloud buyCarBoxCloud"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subscription">
+        <div class="wrap">
+            <div class="title">Do You Want To Receive <br>Special Offers?</div>
+            <div class="description subscriptionText">Be the first to receive all the information about our products and
+                new cars by email by subscribing to our mailing list.</div>
+            <button class="btn Subscribtionbtn">Subscribe Now</button>
+
+        </div>
+    </section>
+    <section class="logos">
+        <div class="wrap ">
+            <div class="logoFlex">
+                <div class="logoBox PorscheLogo"></div>
+                <div class="logoBox AudiLogo"></div>
+                <div class="logoBox TeslaLogo"></div>
+                <div class="logoBox BMWLogo"></div>
+                <div class="logoBox LamboLogo"></div>
+                <div class="logoBox MerLogo"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="wrap">
+            <div class="footerFlex">
+                <div class="footerInside">
+                    <div class="footerBoxDescription">
+                        <div class="footerElecarImg"></div>
+                        <div class="description">We offer the best electric cars of the most recognized brands in the
+                            world.</div>
+                    </div>
+                    <div class="footerbox">
+                        <div class="footerTitle">Company</div>
+                        <ul>
+                            <li>
+                                <a href="#" class="description">About</a>
+                            </li>
+                            <li>
+                                <a href="#" class="description">Cars</a>
+                            </li>
+                            <li>
+                                <a href="#" class="description">History</a>
+                            </li>
+                            <li>
+                                <a href="#" class="description">Shop</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerInside">
+                    <div class="footerbox">
+                        <div class="footerTitle">Information</div>
+                        <ul>
+                            <li>
+                                <a href="#" class="description">Request a quote</a>
+                            </li>
+                            <li>
+                                <a href="#" class="description">Find a dealer</a>
+                            </li>
+                            <li>
+                                <a href="#" class="description">Contact us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="description">Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footerbox">
+                        <div class="footerTitle">Follow us</div>
+                        <div class="footerImgBoxHolder">
+                            <div class="footerImgBox facebook"></div>
+                            <div class="footerImgBox instagram"></div>
+                            <div class="footerImgBox twitter"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">© Bedimcode. All rights reserved</div>
+
+        </div>
+        <div class="blueCloud c3"></div>
+        <div class="blueCloud c4"></div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
+<!--
+ind = indicator
+ind = 
+якщо потрібно поставити блоки горизонтально один відносно одното треба застосувати display Flex, flex призначається батьку а впливає на дітей
+-->

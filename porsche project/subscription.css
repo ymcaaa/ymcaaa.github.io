@@ -1,0 +1,43 @@
+
+.subscription{
+    background-image: url("./img/subscribe\ 1📱.png"),url("./img/subscribe-bg.png");
+    height: 580px;
+    background-repeat: no-repeat;
+    background-position: 15vw 368px, center;
+    background-size: auto, cover;
+    padding-top: 56px;
+}
+.subscription .title{
+    text-align: center;
+}
+.subscriptionText{
+    max-width: 375px;
+    margin: 32px auto 48px;
+    text-align: center;
+}
+.Subscribtionbtn{
+    width: 174px;
+    height: 50px;
+    border-radius: 4px;
+    margin: auto;
+    display: block;
+}
+
+@media (min-width:800px){
+    .subscription{
+    background-image: url("./img/subscribe\ 1.png"),url("./img/subscribe-bg.png");
+    height: 400px;
+    background-position: 50vw 98px, center;
+    padding-top: 72px;
+    }
+    .subscription .title{
+        text-align: left;
+    }
+    .subscriptionText{
+        text-align: left;
+        margin: 32px 0 48px;
+    }
+    .Subscribtionbtn{
+        margin: 0;
+    }
+}

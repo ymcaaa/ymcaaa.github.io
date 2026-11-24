@@ -1,0 +1,141 @@
+.buyCar{
+    padding: 56px 0;
+}
+.buyCarButtons{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    gap: 16px;
+    margin-top: 48px;
+}
+.buyCarBtn{
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: rgba(17, 18, 19, 1);
+    border: none;
+    color: white;
+    display: block;
+}
+.buyCarTeslaImg{
+    background-image: url("./img/Tesla.png");
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+.buyCarAudiImg{
+    background-image: url("./img/Audi.png");
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-position: center;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+.buyCarPorscheImg{
+    background-image: url("./img/Porsche.png");
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+.buyCarFlexCont{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 56px;
+}
+.buyCarBox{
+    width: 228px;
+    height: 279px;
+    background: rgba(17, 18, 19, 1);
+    border-radius: 16px;
+    position: relative;
+    padding-top: 32px;
+    padding-left: 24px;
+}
+.buyCarBoxImg{
+    margin-top: 24px;
+    width: 180px;
+    height: 94px;
+    z-index: 10;
+    position: relative;
+}
+.buyCarBoxPrice{
+    font-family: var(--font-exo);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #BABEC4;
+    margin-top: 24px;
+}
+.buyCarBoxCheckout{
+    width: 52px;
+    height: 44px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: #4177DC;
+    background-image: url("./img/checkoutimg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 235px;
+    left: 176px;
+
+}
+.ModelX{
+    background-image: url("./img/TeslaModelX.png");
+}
+.Model3{
+    background-image: url("./img/Model3.png");
+}
+.E-tron{
+    background-image: url("./img/E-tron.png");
+    background-repeat: no-repeat;
+}
+.box987{
+    background-image: url("./img/Boxster\ 987.png");
+    background-repeat: no-repeat;
+}
+.Panamera{
+    background-image: url("./img/Panamera.png");
+    background-repeat: no-repeat;
+}
+
+@media (min-width:500px){
+    .buyCar{
+        padding: 72px 0 ;
+    }
+    .buyCarButtons{
+        gap: 32px;
+    }
+    .buyCarBtn{
+        width: 52px;
+        height: 52px;
+        border-radius: 16px;
+    }
+    .buyCarBox{
+        width: 248px;
+        height: 312px;
+        border-radius: 20px;
+    }
+    .buyCarFlexCont{
+        gap: 72px;
+        margin-top: 72px;
+    }
+    .buyCarBoxImg{
+        margin-top: 32px;
+    }
+    .buyCarBoxPrice{
+        font-size: 20px;
+        margin-top: 38px;
+    }
+    .buyCarBoxCheckout{
+    top: 268px;
+    left: 196px;
+    }
+}

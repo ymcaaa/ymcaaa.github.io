@@ -1,0 +1,93 @@
+footer{
+    position: relative;
+    padding-top: 72px;
+}
+.footerFlex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.footerBoxDescription{
+    width: 201px;
+
+}
+.footerElecarImg{
+    background-image: url("./img/elecarbiglogo.png");
+    width: 86px;
+    height: 28px;
+    margin-bottom: 20px;
+    background-size: contain;
+}
+.footerTitle{
+    font-family: var(--font-exo);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #F1F2F3;
+    margin-bottom: 20px;
+}
+.footerbox ul li{
+    margin-bottom: 8px;
+}
+.footerImgBoxHolder{
+    display: flex;
+    gap: 24px;
+}
+.footerImgBox{
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+.footerInside{
+    display: flex;
+    width: calc(100vw - 48px);
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.facebook{
+    background-image: url("./img/Facebook.png");
+}
+.instagram{
+    background-image: url("./img/instagram.png");
+}
+.twitter{
+    background-image: url("./img/twitter.png");
+}
+.copyright{
+    font-family: var(--font-exo);
+    font-weight: 400;
+    font-size: 12px;
+    color: #888B91;
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 25px;
+}
+@media (min-width:600px){
+    .footerElecarImg{
+        width: 110px;
+        height: 34px;
+        margin-bottom: 24px;
+    }
+    .footerTitle{
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+    .footerbox ul li{
+        margin-bottom: 12px;
+    }   
+    .footerImgBox{
+        width: 24px;
+        height: 24px;
+    }
+    .footerInside{
+        width: 429px;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .copyright{
+        margin-top: 98px;
+    }
+}

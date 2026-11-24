@@ -1,0 +1,80 @@
+.second-screen{
+    padding: 56px 0 32px;
+}
+.secondCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 95px;
+}
+.aboutImg{
+    border-radius: 8px;
+    position: relative;
+}
+.aboutImgContainer{
+    width: 181px;
+    height: 95px;
+    border-radius: 20px;
+    background-color: #FFFFFF1A;
+    backdrop-filter: blur(16px);
+    position: absolute;
+    right: 0px;
+    bottom: -47.5px;
+    padding-top: 16px;
+}
+.aboutContent{
+    max-width: 481px;
+}
+.second-screen .title{
+    margin-bottom: 16px;
+}
+
+.aboutimgtext{
+    color: white;
+    font-family: var(--font-exo);
+    line-height: 140%;
+    text-align: center;
+}
+.t1{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.t2{
+    font-weight: 400;
+    font-size: 12px;
+}
+.secondScreenBtn{
+    width: 144px;
+    height: 53px;
+    border-radius: 4px;
+    margin-top: 32px;
+}
+@media (min-width: 975px){
+    .second-screen{
+        padding: 72px 0 135px;
+    }
+    .secondCont{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    }
+    .aboutImg{
+        width: 480px;
+        height: 320px
+    }
+    .aboutImgContainer{
+        width: 197px;
+        height: 104px;
+    }
+    .aboutContent{
+        max-width: 401px;
+    }
+    .second-screen .title{
+        margin-bottom: 24px;
+        margin-top: 47px;
+    }
+    .secondScreenBtn{
+        margin-top: 48px;
+    }
+}

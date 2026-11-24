@@ -1,0 +1,47 @@
+.logos{
+    padding: 56px 0;
+}
+.logoFlex{
+    display: flex;
+    gap: 64px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logoBox{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.PorscheLogo{
+    background-image: url("./img/PorscheLogo.png");
+}
+.AudiLogo{
+    background-image: url("./img/AudiLogo.png");
+}
+.TeslaLogo{
+    background-image: url("./img/TeslaLogo.png");
+}
+.BMWLogo{
+    background-image: url("img/BMWLogo.png");
+}
+.LamboLogo{
+    background-image: url("./img/LamborghiniLogo.png");
+}
+.MerLogo{
+    background-image: url("./img/MercedesLogo.png");
+}
+@media (min-width:500px){
+    .logos{
+        padding: 72px 0 75px;
+    }
+    .logoFlex{
+        gap: 106px;
+    }
+    .logoBox{
+        width: 50px;
+        height: 50px;
+    }
+
+}

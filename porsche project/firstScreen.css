@@ -1,0 +1,214 @@
+.first-screen{
+    background-color: var(--dark-color);
+}
+.first-screen .wrap{
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+.logo{
+    background-image: url("./img/Elecar.png");
+    width: 68px;
+    height: 21px;
+}
+.burger-icons{
+    color: white;
+}
+.hide{
+    display: none;
+}
+.mobile-menu-list{
+    position: absolute;
+    top: 80px;
+    left: -500px;
+    width: calc(100vw - 96px);
+    padding: 30px 0;
+    border-radius: 20px;
+    background-color:#0a0a0be0;
+    transition: all 0.7s;
+}
+.show-menu{
+    left: 24px;
+    top: 80px;
+    transition: all 0.7s ;
+}
+.mobile-menu-list li{
+    text-align: center;
+}
+.mobile-menu-list li a{
+    font-family: var(--font-exo);
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+}
+.desktop-menu{
+    display: none;
+}
+.desktop-menu-list li a{
+    font-family: var(--font-exo);
+    color: white;
+    font-weight: 600;
+    line-height: 140%;
+    
+}
+h1{
+    font-family: Exo;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 24px;
+    line-height: 140%;
+    color: white;
+    width: fit-content;
+    margin: 77px auto 16px;
+    
+}
+.PorscheMission{
+    font-family: var(--font-exo);
+    font-weight: 600;
+    line-height: 140%;
+    color: white;
+    width: fit-content;
+    margin: auto;
+}
+.elecarImg{
+    background-image: url("./img/Especification\ home.png");
+    width: 87px;
+    height: 18px;
+    margin: 4px auto 0;
+    background-size: contain;
+}
+.mainCarImg{
+    background-image: url("./img/home\ 1.png");
+    width: 280px;
+    height: 164px;
+    background-size: contain;
+    margin: 48px auto 0;
+}
+.InfoAboutMainCarCont{
+    width: 298px;
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.mainbox{
+    width: 69px;
+
+}
+.mainboximg{
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    margin: auto;
+}
+.imgtemp{
+    background-image: url("./img/Icon\ home\ temp.png");
+}
+.imgmile{
+    background-image: url("./img/icon\ home\ MILEAGE.png");
+}
+.imgbattery{
+    background-image: url("./img/Icon\ home\ BATTERY.png");
+}
+.mainboxindicator{
+    font-family: Exo;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin: 16px auto 4px;
+    width: fit-content;
+}
+.mainboxunits{
+    color: #888B91;
+    font-family: Exo;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+}
+.buttonStart{
+    width: 90px;
+    height: 90px;
+    background-image: url("./img/Button\ home.png");
+    background-size: contain;
+    margin: 57px auto 0;
+}
+@media (min-width:500px){
+    .mobile-menu{
+        display: none;
+    }
+    .desktop-menu{
+        display: block;
+    }
+    .desktop-menu-list{
+        display: flex;
+        gap: 42px;
+    }
+    h1{
+        margin: 72px auto 20px;
+        font-size: 36px;
+    }
+    .PorscheMission{
+        font-size: 24px;
+    }
+    .elecarImg{
+        width: 107px;
+        height: 22px;
+        margin: 8px auto 0;
+    }
+    .mainCarImg{
+        width: 380px;
+        height: 222px;
+    }
+    .InfoAboutMainCarCont{
+        width: 406px;
+    }
+    .mainboximg{
+        width: 32px;
+        height: 32px;
+    }
+    .mainboxindicator{
+        font-size: 24px;
+    }
+    .mainboxunits{
+        font-size: 13px;
+    }
+
+}
+
+/*
+font-family: Exo;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+
+font-family: Exo;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+
+font-family: Exo;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+
+
